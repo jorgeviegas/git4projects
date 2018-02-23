@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Print Messages') {
+    stage('Environment Config') {
       steps {
-        echo 'Started Pipeline'
+        echo 'Started Environment Config'
       }
     }
   }
